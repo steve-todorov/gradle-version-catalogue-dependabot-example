@@ -16,6 +16,7 @@ dependencies {
         because("Testing if settingsLib works with dependabot.")
     }
     testImplementation(fileLibs.assertj.core)
+    testImplementation(fileLibs.assertj.joda.time)
 
     // this does not work:
     //implementation("org.apache.maven.plugins:maven-gpg-plugin:${fileLibs.versions.gpgPlugin.get()}")
