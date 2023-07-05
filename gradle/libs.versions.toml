@@ -2,5 +2,5 @@
 assertj_joda_time = "1.1.0"
 
 [libraries]
-assertj-core = { module = "org.assertj:assertj-core", version = "3.10.0" }
+assertj-core = { module = "org.assertj:assertj-core", version = "3.24.2" }
 assertj-joda-time = { module = "org.assertj:assertj-joda-time", version.ref = "assertj_joda_time" }
