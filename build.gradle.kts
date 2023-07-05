@@ -9,7 +9,7 @@ dependencies {
     testImplementation(platform("org.junit:junit-bom:${settingsLibs.versions.junit.get()}")) {
         because("This is an example which uses the settings.gradle.kts versions defined directly into the settings.gradle.kts")
     }
-    testImplementation("org.assertj:assertj-core:${fileLibs.versions.assertj.get()}")
+    testImplementation(fileLibs.assertj.core)
     //implementation("org.apache.maven.plugins:maven-gpg-plugin:${fileLibs.versions.gpgPlugin.get()}")
 }
 

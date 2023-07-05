@@ -15,7 +15,7 @@ dependencyResolutionManagement {
             version("junit", "5.7.0")
         }
         create("fileLibs") {
-            from(files("./gradle/gradle.versions.toml"))
+            from(files("./gradle/libs.versions.toml"))
         }
     }
 }
