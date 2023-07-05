@@ -1,2 +1,3 @@
 [versions]
 assertj = "3.10.0"
+gpgPlugin = "1.6"

@@ -10,6 +10,7 @@ dependencies {
         because("This is an example which uses the settings.gradle.kts versions defined directly into the settings.gradle.kts")
     }
     testImplementation("org.assertj:assertj-core:${fileLibs.versions.assertj.get()}")
+    //implementation("org.apache.maven.plugins:maven-gpg-plugin:${fileLibs.versions.gpgPlugin.get()}")
 }
 
 tasks.test {
