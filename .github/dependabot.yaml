@@ -9,6 +9,9 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+      time: "19:25"
+      # Use Japan Standard Time (UTC +09:00)
+      timezone: "Europe/Sofia"
     commit-message:
       prefix: deps(upgrade)
 
